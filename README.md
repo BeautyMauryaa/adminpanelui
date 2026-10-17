@@ -1,42 +1,32 @@
 # Admin Panel UI
-#This is freelancing
-A clean, modern, and responsive **Admin Panel** built using **Vite + React + Tailwind CSS**.  
-Designed for fast performance, clean structure, and future backend integration.
 
-##  Features
+A responsive admin dashboard interface built with React, TypeScript, Vite, and Tailwind CSS. This repository is focused on the frontend and is intended as a UI foundation for future backend integration.
 
-- Super fast Vite build system
-- Tailwind CSS for effortless styling
-- React with modular components
-- Fully responsive across devices
-- Clean code and folder structure
+**Live demo:** [Open Admin Panel UI](https://iridescent-faun-411e0c.netlify.app/)
 
-   ##Tech Stack
-Frontend: React, TypeScript
-Styling: Tailwind CSS
-Bundler: Vite
+## Tech stack
 
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
+## Run locally
 
-cd adminpanelui
-npm install
-npm run dev
-
-
-## Live Demo
-
- [Check it out on Netlify](https://iridescent-faun-411e0c.netlify.app/)  
-
-## Project Structure
+The actual application is located in `project/`.
 
 ```bash
-adminpanelui/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.tsx
-│   └── main.tsx
-├── vite.config.ts
-└── tailwind.config.js
+cd project
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+## Scope
+
+This repository focuses on the UI. Authentication, data persistence, and admin operations should not be assumed to work against a backend unless a separate integration has been implemented.
+
+## Author
+
+**Beauty Mauryaa** · [GitHub](https://github.com/BeautyMauryaa)
